@@ -1,0 +1,48 @@
+# Игнорируем файлы IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Игнорируем сборочные директории
+target/
+build/
+out/
+bin/
+
+# Игнорируем логи и отчеты
+*.log
+logs/
+allure-results/
+test-output/
+reports/
+
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорируем локальные конфиги (могут содержать пароли)
+local.properties
+*.env
+config/local_*.properties
+
+# Игнорируем зависимости (для Maven/Gradle)
+dependency-reduced-pom.xml
+
+# Игнорируем сгенерированные файлы
+*.class
+*.jar
+*.war
+*.ear
+*.tmp
+
+# Игнорируем драйверы браузеров (их обычно скачивают отдельно)
+drivers/
+*.exe
+*.dmg
+
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
